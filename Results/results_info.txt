@@ -1,0 +1,31 @@
+Deepfake Detection Results Summary
+=================================
+
+Domain: Text
+-----------------------------------------------
+Model                         Accuracy  Precision  Recall  F1-Score  Support
+Attention-based BiLSTM        99%       98%        98%     99%       2730
+Efficient-CapsNet             99%       99%        99%     99%       2730
+VerbaFake (Scratch-Built)     99%       99%        99%     99%       2730
+
+
+Domain: Audio
+-----------------------------------------------
+Model                         Accuracy  Precision  Recall  F1-Score  Support
+Xception                      96%       95%        96%     98%       4000
+DenseNet201                   97%       96%        98%     97%       4000
+EchoFake (Scratch-Built)      98%       98%        98%     98%       4000
+
+
+Domain: Image
+-----------------------------------------------
+Model                         Accuracy  Precision  Recall  F1-Score  Support
+EfficientNetV2-S              97%       96%        96%     97%       5200
+MobileNetV2                  97%       97%        97%     97%       5784
+PixelFake (Scratch-Built)     92%       92%        92%     92%       7800
+
+
+Notes:
+- All results are reported in percentage (%).
+- Support indicates the number of samples used for evaluation.
+- Scratch-Built models represent proposed architectures developed in this study.
