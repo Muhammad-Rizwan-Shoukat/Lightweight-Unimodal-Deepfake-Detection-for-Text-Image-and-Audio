@@ -1,0 +1,26 @@
+# Deepfake Detection System (Text, Image, Audio)
+
+# Core Libraries
+numpy
+pandas
+
+# Machine Learning / Deep Learning
+tensorflow
+keras
+scikit-learn
+torch
+torchaudio
+
+# Computer Vision
+opencv-python-headless
+
+# NLP (Text Deepfake Detection)
+nltk
+
+# Audio Processing
+soundfile
+
+# Visualization
+matplotlib
+seaborn
+

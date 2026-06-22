@@ -1,0 +1,66 @@
+Datasets Information
+====================
+
+This study utilizes publicly available datasets for unimodal deepfake detection 
+across Text, Image, and Audio domains.
+
+------------------------------------------------------------
+Domain: Text
+------------------------------------------------------------
+Dataset Name : DAIGT Catch The AI
+Source       : Kaggle
+Link         : https://www.kaggle.com/datasets/zeyadusf/daigt-all-data-for-competition
+
+Total Samples : 31,429
+Train Samples : 25,969
+Test Samples  : 2,730
+Validation    : 2,730
+
+Description:
+This dataset contains human-written and AI-generated text samples designed for 
+detecting machine-generated content.
+
+
+------------------------------------------------------------
+Domain: Image
+------------------------------------------------------------
+Dataset Name : Real vs Fake Faces + Deepfake and Real Images
+Source       : Kaggle
+Links        : 
+- https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+- https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection
+
+Total Samples : 26,000
+Train Samples : 20,800
+Test Samples  : 5,200
+Validation    : Not explicitly defined
+
+Description:
+These datasets include real and deepfake face images used for training and 
+evaluating image-based deepfake detection models.
+
+
+------------------------------------------------------------
+Domain: Audio
+------------------------------------------------------------
+Dataset Name : Deep Voice (Deepfake Voice Recognition)
+Source       : Kaggle
+Link         : https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition
+
+Total Samples : 20,000
+Train Samples : 12,000
+Test Samples  : 4,000
+Validation    : 4,000
+
+Description:
+This dataset consists of real and AI-generated audio samples for detecting 
+synthetic (deepfake) voices.
+
+
+------------------------------------------------------------
+Notes:
+------------------------------------------------------------
+- All datasets are publicly available on Kaggle.
+- Sample counts are based on the subsets used in this study.
+- Validation splits were created where not originally provided.
+- These datasets collectively support Unimodal analysis (Text, Image, Audio).
